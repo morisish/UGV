@@ -20,7 +20,7 @@ const buttonNames = {
     16: 'Home'
 };
 
-const ws = new WebSocket('ws://morisish.github.io:8001');
+const ws = new WebSocket('ws://193.219.75.91:8001');
 
 ws.onopen = () => {
     console.log('Connected to WebSocket server');
