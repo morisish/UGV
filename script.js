@@ -20,7 +20,7 @@ const buttonNames = {
     16: 'Home'
 };
 
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://localhost:80');
 
 ws.onopen = () => {
     console.log('Connected to WebSocket server');
